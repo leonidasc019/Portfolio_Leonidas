@@ -1,0 +1,271 @@
+@charset "UTF-8";
+body {
+  overflow: hidden;
+  place-items: center;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: #6e6e6e;
+}
+
+#intro {
+  background: #151515 url(/imgs/Dark-space-wallpaper-1920x1200.jpg) no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  min-height: 720px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro-content h1 {
+  color: #FFFFFF;
+  font-family: "StarWars";
+  font-size: 4.9rem;
+  max-width: 900px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.intro-content h5 {
+  color: #ce0707;
+  font-family: "StarWars";
+  font-size: 2.3rem;
+  line-height: 1.565;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.intro-content .intro-position {
+  font-family: "StarWars";
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.intro-content .button {
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.3);
+  height: 6rem;
+  line-height: 5.4rem;
+  padding: 0 3.5rem 0 3rem;
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.coluna_Inicial {
+  width: 100%;
+  margin-top: 25%;
+}
+
+.a {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-color: rgb(255, 255, 255);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  justify-content: center;
+  color: azure;
+  font-family: "StarWars";
+  width: 190px;
+  height: 40px;
+  align-items: center;
+  align-content: center;
+}
+
+section {
+  min-height: 100%;
+  display: flex;
+}
+
+.intro-social {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 7.2rem;
+  font-size: 3.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-social li {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 0;
+}
+
+.intro-social li a,
+.intro-social li a:visited {
+  color: #FFFFFF;
+}
+
+.intro-social li a:hover,
+.intro-social li a:focus {
+  color: #ce0707;
+}
+
+.intro-social {
+  font-size: 2.4rem;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+#sobre {
+  background-color: white;
+  color: #000;
+}
+
+h1 {
+  font-size: 60px;
+  color: #ce0707;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: azure;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  color: #ce0707;
+}
+
+/* Inicio Pre Loader da Chicara*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  /* cor do background que vai ocupar o body */
+  z-index: 999;
+  /* z-index para jogar para frente e sobrepor tudo */
+}
+
+#preloader .inner {
+  position: absolute;
+  top: 50%;
+  /* centralizar a parte interna do preload (onde fica a animação)*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg.tea {
+  --secondary: #ce0707;
+}
+
+svg.tea #teabag {
+  transform-origin: top center;
+  transform: rotate(3deg);
+  -webkit-animation: swing 2s infinite;
+          animation: swing 2s infinite;
+}
+
+svg.tea #steamL {
+  stroke-dasharray: 13;
+  stroke-dashoffset: 13;
+  -webkit-animation: steamLarge 2s infinite;
+          animation: steamLarge 2s infinite;
+}
+
+svg.tea #steamR {
+  stroke-dasharray: 9;
+  stroke-dashoffset: 9;
+  -webkit-animation: steamSmall 2s infinite;
+          animation: steamSmall 2s infinite;
+}
+@-webkit-keyframes swing {
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+@keyframes swing {
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+@-webkit-keyframes steamLarge {
+  0% {
+    stroke-dashoffset: 13;
+    opacity: 0.6;
+  }
+  100% {
+    stroke-dashoffset: 39;
+    opacity: 0;
+  }
+}
+@keyframes steamLarge {
+  0% {
+    stroke-dashoffset: 13;
+    opacity: 0.6;
+  }
+  100% {
+    stroke-dashoffset: 39;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes steamSmall {
+  10% {
+    stroke-dashoffset: 9;
+    opacity: 0.6;
+  }
+  80% {
+    stroke-dashoffset: 27;
+    opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 27;
+    opacity: 0;
+  }
+}
+@keyframes steamSmall {
+  10% {
+    stroke-dashoffset: 9;
+    opacity: 0.6;
+  }
+  80% {
+    stroke-dashoffset: 27;
+    opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 27;
+    opacity: 0;
+  }
+}
+/* Fim Pre Loader da Chicara*/
+body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: aliceblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "StarWars";
+  src: url("/fonts/star-wars/SF Distant Galaxy AltOutline.ttf") format("truetype");
+}/*# sourceMappingURL=css.css.map */
