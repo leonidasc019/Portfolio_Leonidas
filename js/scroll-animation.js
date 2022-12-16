@@ -1,17 +1,19 @@
+//-------------- SCROLL ANIMATION BUTTON TOP ----------------------
 const scrollAnima = document.querySelector('[data-anima="scroll"]');
 
-const metadeWindow = window.innerHeight * 5.8;
+const tamanhoWindow = window.innerHeight;
+console.log(tamanhoWindow);
 
 function animarScroll() {
     const topoItem = scrollAnima.getBoundingClientRect().top;
-
-    const itemVisivel = topoItem = metadeWindow < 0;
-
-    if (itemVisivel) {
+    const visibleItem = topoItem - tamanhoWindow < 430
+    if (visibleItem) {
         scrollAnima.classList.add('show_button')
     } else {
         scrollAnima.classList.remove('show_button')
     }
+    //console.log(visibleItem);
+    //console.log(topoItem);
 }
 
-window.addEventListener('scroll', animarScroll)
+window.addEventListener('scroll', animarScroll);
