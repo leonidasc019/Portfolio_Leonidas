@@ -6,3 +6,4 @@ $(window).on('load', function () {
     });
 })
 
+//------------- PRE LOADER EXIT---------------------
