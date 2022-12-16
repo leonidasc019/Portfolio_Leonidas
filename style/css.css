@@ -118,11 +118,13 @@ section {
   font-size: 2.4rem;
 }
 
+/* Quebra Linha*/
 .break {
   flex-basis: 100%;
   height: 0;
 }
 
+/* Section Sobre Eu*/
 .sobre {
   width: 100%;
   height: 100%;
@@ -132,7 +134,6 @@ section {
 }
 
 .area_secao_sobre {
-  background-color: #ce0707;
   width: 40%;
   height: 100%;
   display: flex;
@@ -140,18 +141,73 @@ section {
 }
 
 .mini_sobre {
-  background-color: #6e6e6e;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
   width: 100%;
-  height: 10%;
+  height: 5%;
   margin-top: 13%;
+}
+
+.mini_sobre2 {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.mini_sobre h5 {
+  font-size: 17px;
+  letter-spacing: 0.3rem;
+  color: #ce0707;
+  font-family: "poppins-bold", sans-serif;
+}
+
+.mini_sobre2 h4 {
+  color: black;
+  font-family: "poppins-bold", sans-serif;
+  font-size: 35px;
 }
 
 .informações {
   background-color: aqua;
   width: 100%;
   height: 80%;
+  display: flex;
 }
 
+.profile {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+}
+
+.skills {
+  background-color: #000;
+  width: 50%;
+  height: 100%;
+}
+
+/* Scroll Bar Personal*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;
+  border-radius: 10px;
+}
+
+/*--------------------*/
 .Button_Topo {
   background-color: #FFFFFF;
   position: fixed;
@@ -189,7 +245,7 @@ a:hover {
   color: #ce0707;
 }
 
-/* Inicio Pre Loader da Chicara*/
+/* -----------------------Inicio Pre Loader da Chicara------------------*/
 #preloader {
   position: fixed;
   top: 0;
@@ -292,7 +348,7 @@ svg.tea #steamR {
     opacity: 0;
   }
 }
-/* Fim Pre Loader da Chicara*/
+/*------------------------ Fim Pre Loader da Chicara--------------------------*/
 body,
 ul,
 li,
@@ -307,7 +363,20 @@ html {
   scroll-behavior: smooth;
 }
 
+/*-------------------  FONTS DO SITE ----------------------------*/
 @font-face {
   font-family: "StarWars";
   src: url("/fonts/star-wars/SF Distant Galaxy AltOutline.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("/fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TitilliumWebItalic";
+  src: url("/fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url("/fonts/poppins/poppins-bold-webfont.ttf") format("truetype");
 }/*# sourceMappingURL=css.css.map */
