@@ -251,9 +251,30 @@ section {
 }
 
 .skills {
-    background-color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills p {
+    text-align: left;
+    font-family: "lora-regular", serif;
+    font-size: 15px;
+    color: #888888;
+    margin-bottom: 100px;
+}
+
+.skills h3 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Scroll Bar Personal*/
@@ -271,8 +292,72 @@ section {
 }
 
 
-/*--------------------*/
+/*--------- COMEÇO CIRCULO ANIMADO PROGRESS-----------*/
 
+.box {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    bottom: 10%;
+}
+
+.box .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.box .text h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.box .text small {
+    font-size: 15px;
+    display: block;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .points {
+    width: 3px;
+    height: 15px;
+    background: #0007;
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(calc(var(--i)*var(--rot))) translateY(-80px);
+
+}
+
+.points.marked {
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i)*0.05s);
+}
+
+@keyframes glow {
+    0% {
+        background: #0007;
+        box-shadow: none;
+    }
+
+    100% {
+        background: var(--bgColor);
+        box-shadow: 0 0 10px var(--bgColor);
+    }
+}
+
+/*---------FIM CIRCULO ANIMADO PROGRESS-----------*/
 .Button_Topo {
     background-color: #FFFFFF;
     position: fixed;
