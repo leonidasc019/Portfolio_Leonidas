@@ -128,7 +128,6 @@ section {
 .sobre {
   width: 100%;
   height: 100%;
-  background-color: white;
   color: #000;
   justify-content: center;
 }
@@ -398,6 +397,108 @@ a:hover {
   color: #ce0707;
 }
 
+/* Section Sobre Experiencia Trabalho */
+.Resume_Timeline {
+  width: 100%;
+  height: 130%;
+  background-color: white;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume_header {
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 297px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume_header h2 {
+  font-family: "poppins-bold", sans-serif;
+  font-size: 21px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ce0707;
+}
+
+.TimeLine_Block {
+  background-color: #ce0707;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Block {
+  background-color: #FFFFFF;
+  width: 90%;
+  height: 49%;
+}
+
+.timeline-ico {
+  height: 76.8px;
+  width: 76.8px;
+  background: #313131;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  left: 35%;
+  top: 30px;
+}
+
+.timeline-ico i {
+  position: relative;
+  left: 0px;
+  top: 22px;
+}
+
+.Educ_Timeline {
+  width: 40%;
+  height: 55%;
+  position: relative;
+  top: -45px;
+}
+
+.Educ_Content {
+  width: 60%;
+  height: 88%;
+  position: relative;
+  top: -210px;
+  left: 40%;
+}
+
+.Educ_Timeline p {
+  font-family: "poppins-regular", sans-serif;
+  font-size: 1.6rem;
+  color: #888888;
+}
+
+.Educ_Timeline h3 {
+  margin-bottom: 0;
+}
+
+.Educ_Content h4 {
+  font-family: "poppins-regular", sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+
+.Educ_Content p {
+  font-family: "poppins-regular", sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+
+/* FIM DA SECTION DO TRABALHO*/
 /* -----------------------Inicio Pre Loader da Chicara------------------*/
 #preloader {
   position: fixed;
