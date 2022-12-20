@@ -147,7 +147,6 @@ section {
   justify-content: center;
   width: 100%;
   height: 5%;
-  margin-top: 13%;
 }
 
 .mini_sobre2 {
@@ -177,6 +176,8 @@ section {
   width: 100%;
   height: 80%;
   display: flex;
+  position: relative;
+  top: -5%;
 }
 
 .description {
@@ -189,7 +190,7 @@ section {
   text-align: left;
   padding-left: 140px;
   font-family: "lora-regular", serif;
-  font-size: 20px;
+  font-size: 17px;
   color: #888888;
   margin-top: 52px;
 }
@@ -400,20 +401,19 @@ a:hover {
 /* Section Sobre Experiencia Trabalho */
 .Resume_Timeline {
   width: 100%;
-  height: 130%;
-  background-color: white;
+  height: 100%;
   color: #000;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+  top: 17%;
 }
 
 .resume_header {
-  background-color: #000;
   width: 100%;
   height: 60px;
   position: relative;
-  top: 297px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -428,13 +428,14 @@ a:hover {
 }
 
 .TimeLine_Block {
-  background-color: #ce0707;
   width: 50%;
   height: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: -20%;
 }
 
 .Block {
@@ -444,15 +445,25 @@ a:hover {
 }
 
 .timeline-ico {
-  height: 76.8px;
-  width: 76.8px;
+  height: 60.8px;
+  width: 60.8px;
   background: #313131;
   border-radius: 50%;
   text-align: center;
   color: #FFFFFF;
   position: relative;
-  left: 35%;
+  left: 30%;
   top: 30px;
+}
+
+.TimeLine_Block::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 35%;
+  top: 5%;
 }
 
 .timeline-ico i {
@@ -466,30 +477,43 @@ a:hover {
   height: 55%;
   position: relative;
   top: -45px;
+  left: -5%;
 }
 
 .Educ_Content {
   width: 60%;
   height: 88%;
   position: relative;
-  top: -210px;
+  top: -200px;
   left: 40%;
 }
 
 .Educ_Timeline p {
   font-family: "poppins-regular", sans-serif;
-  font-size: 1.6rem;
+  font-size: 18px;
   color: #888888;
 }
 
 .Educ_Timeline h3 {
+  font-family: "poppins-regular", sans-serif;
   margin-bottom: 0;
+  font-size: 18px;
+  position: relative;
 }
 
 .Educ_Content h4 {
   font-family: "poppins-regular", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #000;
+}
+
+.Educ_Content h4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
 }
 
 .Educ_Content p {
