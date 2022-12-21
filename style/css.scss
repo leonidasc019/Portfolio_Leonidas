@@ -400,23 +400,22 @@ a:hover {
 /* Section Sobre Experiencia Trabalho */
 
 .Resume_Timeline {
-    width: 100%;
+    width: auto;
     height: 100%;
-
     color: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    top: 17%;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 
 .resume_header {
     width: 100%;
     height: 60px;
-    position: relative;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -436,7 +435,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -20%;
+    left: 5%;
 }
 
 .Block {
@@ -470,8 +469,8 @@ a:hover {
 
 .timeline-ico i {
     position: relative;
-    left: 0px;
-    top: 22px;
+    justify-content: center;
+    top: 18px;
 }
 
 .Educ_Timeline {
