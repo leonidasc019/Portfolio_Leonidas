@@ -6,7 +6,7 @@ console.log(tamanhoWindow);
 
 function animarScroll() {
     const topoItem = scrollAnima.getBoundingClientRect().top;
-    const visibleItem = topoItem - tamanhoWindow < 430
+    const visibleItem = topoItem - tamanhoWindow < 760
     if (visibleItem) {
         scrollAnima.classList.add('show_button')
     } else {

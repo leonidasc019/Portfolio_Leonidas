@@ -122,23 +122,22 @@ section {
     font-size: 2.4rem;
 }
 
+/* Quebra Linha*/
 .break {
     flex-basis: 100%;
     height: 0;
 }
 
-
+/* Section Sobre Eu*/
 .sobre {
     width: 100%;
     height: 100%;
-    background-color: white;
     color: #000;
     justify-content: center;
 
 }
 
 .area_secao_sobre {
-    background-color: #ce0707;
     width: 40%;
     height: 100%;
     display: flex;
@@ -146,18 +145,219 @@ section {
 }
 
 .mini_sobre {
-    background-color: #6e6e6e;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
     width: 100%;
-    height: 10%;
-    margin-top: 13%;
+    height: 5%;
+}
+
+.mini_sobre2 {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.mini_sobre h5 {
+    font-size: 17px;
+    letter-spacing: .3rem;
+    color: #ce0707;
+    font-family: "poppins-bold", sans-serif;
+}
+
+.mini_sobre2 h4 {
+    color: black;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 35px;
 }
 
 .informações {
-    background-color: aqua;
     width: 100%;
     height: 80%;
+    display: flex;
+    position: relative;
+    top: -5%;
 }
 
+.description {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 25%;
+}
+
+.description .resumo {
+    text-align: left;
+    padding-left: 140px;
+    font-family: "lora-regular", serif;
+    font-size: 17px;
+    color: #888888;
+    margin-top: 52px;
+}
+
+.description img {
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    margin: 85px 0 0 0;
+    float: left;
+}
+
+.profile {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    max-width: 850px;
+}
+
+.profile h3 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.profile .info-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.profile .info-list li strong {
+    font-family: "poppins-bold", sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.profile .info-list li span {
+    display: block;
+    font-family: "poppins-regular", sans-serif;
+    color: #888888;
+    font-size: 15px;
+}
+
+.profile p {
+    text-align: left;
+    font-family: "lora-regular", serif;
+    font-size: 15px;
+    color: #888888;
+}
+
+.skills {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills p {
+    text-align: left;
+    font-family: "lora-regular", serif;
+    font-size: 15px;
+    color: #888888;
+    margin-bottom: 100px;
+}
+
+.skills h3 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Scroll Bar Personal*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+
+
+/*--------- COMEÇO CIRCULO ANIMADO PROGRESS-----------*/
+
+.box {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    bottom: 10%;
+}
+
+.box .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.box .text h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.box .text small {
+    font-size: 15px;
+    display: block;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .points {
+    width: 3px;
+    height: 15px;
+    background: #0007;
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(calc(var(--i)*var(--rot))) translateY(-80px);
+
+}
+
+.points.marked {
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i)*0.05s);
+}
+
+@keyframes glow {
+    0% {
+        background: #0007;
+        box-shadow: none;
+    }
+
+    100% {
+        background: var(--bgColor);
+        box-shadow: 0 0 10px var(--bgColor);
+    }
+}
+
+/*---------FIM CIRCULO ANIMADO PROGRESS-----------*/
 .Button_Topo {
     background-color: #FFFFFF;
     position: fixed;
@@ -197,7 +397,137 @@ a:hover {
     color: #ce0707;
 }
 
-/* Inicio Pre Loader da Chicara*/
+/* Section Sobre Experiencia Trabalho */
+
+.Resume_Timeline {
+    width: auto;
+    height: 100%;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.resume_header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume_header h2 {
+    font-family: "poppins-bold", sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ce0707;
+}
+
+.TimeLine_Block {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5%;
+}
+
+.Block {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 49%;
+}
+
+.timeline-ico {
+    height: 60.8px;
+    width: 60.8px;
+    background: #313131;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    left: 30%;
+    top: 30px;
+}
+
+
+.TimeLine_Block::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 35%;
+    top: 5%;
+}
+
+.timeline-ico i {
+    position: relative;
+    justify-content: center;
+    top: 18px;
+}
+
+.Educ_Timeline {
+    width: 40%;
+    height: 55%;
+    position: relative;
+    top: -45px;
+    left: -5%;
+}
+
+.Educ_Content {
+
+    width: 60%;
+    height: 88%;
+    position: relative;
+    top: -200px;
+    left: 40%;
+}
+
+.Educ_Timeline p {
+    font-family: "poppins-regular", sans-serif;
+    font-size: 18px;
+    color: #888888;
+}
+
+.Educ_Timeline h3 {
+    font-family: "poppins-regular", sans-serif;
+    margin-bottom: 0;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.Educ_Content h4 {
+    font-family: "poppins-regular", sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.Educ_Content h4::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.Educ_Content p {
+    font-family: "poppins-regular", sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+/* FIM DA SECTION DO TRABALHO*/
+
+/* -----------------------Inicio Pre Loader da Chicara------------------*/
 #preloader {
     position: fixed;
     top: 0;
@@ -380,7 +710,7 @@ svg.tea #steamR {
     }
 }
 
-/* Fim Pre Loader da Chicara*/
+/*------------------------ Fim Pre Loader da Chicara--------------------------*/
 
 body,
 ul,
@@ -396,8 +726,28 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/*-------------------  FONTS DO SITE ----------------------------*/
 @font-face {
     font-family: 'StarWars';
     src: url('/fonts/star-wars/SF\ Distant\ Galaxy\ AltOutline.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: url('/fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TitilliumWebItalic';
+    src: url('/fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('/fonts/poppins/poppins-bold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lora-regular';
+    src: url('/fonts/lora/lora-regular-webfont.ttf') format('truetype');
 }
