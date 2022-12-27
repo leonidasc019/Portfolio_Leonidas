@@ -402,7 +402,7 @@ a:hover {
 .Resume_Timeline {
   width: 100%;
   height: 100%;
-  color: #000;
+  color: #3a3a3a;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -427,10 +427,11 @@ a:hover {
 
 .resume_header h2 {
   font-family: "poppins-bold", sans-serif;
-  font-size: 21px;
+  font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #ce0707;
+  justify-content: center;
 }
 
 .TimeLine_Block {
@@ -533,27 +534,53 @@ a:hover {
 /* INICIO SECTION WORK RESUME */
 .Work_Resume {
   width: 100%;
-  height: 100%;
+  height: auto;
+  color: #3a3a3a;
+  border-style: solid;
+  border-bottom: #3a3a3a;
+  border-width: 1px;
+}
+
+.workIntroh2h4 {
+  width: 40%;
+  height: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workIntroh2h4 h2 {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
   justify-content: center;
-  background-color: #000;
-}
-
-.workIntroh2 {
-  height: 60px;
-  width: 100%;
-  background-color: #ce0707;
-}
-
-.workIntroh2 h2 {
-  color: #FFFFFF;
-  font-size: 20px;
-  justify-content: center;
+  justify-items: center;
+  color: red;
+  font-size: 17px;
   font-family: "poppins-bold", sans-serif;
-  font-size: 21px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.workIntroh2h4 h4 {
+  color: black;
+  font-size: 27px;
+  font-family: "poppins-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.workIntroh2h4 p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "lora-regular", serif;
+  font-size: 15px;
+  color: #888888;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  text-align: center;
 }
 
 /* -----------------------Inicio Pre Loader da Chicara------------------*/
