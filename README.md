@@ -2,6 +2,8 @@
 
 # Sobre o projeto
 
+https://leonidas019portfolio.netlify.app/
+
 É um portfólio pessoal criado para treinamento, aperfeiçoamento das técnicas de desenvolvimento WEB e aprendizado de novas tecnologias.
 
 ## Layout web
