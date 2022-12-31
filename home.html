@@ -201,17 +201,18 @@
         </div>
         <div class="workImageBlock">
             <div class="image-wrap">
-                <img src="assets/web1.PNG" alt="Portfolio">
-                <a href="#modal-01" class="overlay">
-                    <div class="folio-item-table">
-                        <div class="folio-item-cell">
-                            <h3 class="folio-title">Portfolio</h3>
-                            <span class="folio-types">
-                                Portfolio Pessoal
-                            </span>
-                        </div>
-                    </div>
-                </a>
+                <img src="assets/web1.PNG" onclick="openModal()">
+            </div>
+            <div class="modal">
+                <img src="assets/web1.PNG" alt="mini_web1">
+                <h4>Porfólio Pessoal</h4>
+                <span>In dolor cupidatat adipisicing dolore officia nisi aliqua
+                    incididunt Ut veniam</span>
+                <div class="btns">
+                    <a href='https://www.freecodecamp.org/'><button class="btnOk">Detalhes</button></a>
+
+                    <button class="btnClose" onClick="closeModal()">Fechar</button>
+                </div>
             </div>
         </div>
 

@@ -1,17 +1,9 @@
-/*----------------------------------------------------*/
-/*	Modal Popup
-------------------------------------------------------*/
-$('.item-wrap a').magnificPopup({
+const modal = document.querySelector('.modal')
 
-    type: 'inline',
-    fixedContentPos: false,
-    removalDelay: 300,
-    showCloseBtn: false,
-    mainClass: 'mfp-fade'
+function openModal() {
+    modal.classList.add('active')
+}
 
-});
-
-$(document).on('click', '.popup-modal-dismiss', function (e) {
-    e.preventDefault();
-    $.magnificPopup.close();
-});
+function closeModal() {
+    modal.classList.remove('active')
+}
