@@ -190,7 +190,7 @@
             </div>
         </div>
     </section>
-    <section class="Work_Resume">
+    <section id="portfolio" class="Work_Resume">
         <div class="workIntroh2h4">
             <h2>Portfólio</h2>
             <h4>Confira Alguns de Meus Trabalhos.</h4>
@@ -199,6 +199,23 @@
                 lorem ipsum Consectetur ut in in eu do.
             </p>
         </div>
+        <div class="workImageBlock">
+            <div class="image-wrap">
+                <img src="assets/web1.PNG" class="efeitozoom" onclick="openModal()">
+            </div>
+            <div class="modal">
+                <img src="assets/web1.PNG" alt="mini_web1">
+                <h4>Porfólio Pessoal</h4>
+                <span>In dolor cupidatat adipisicing dolore officia nisi aliqua
+                    incididunt Ut veniam</span>
+                <div class="btns">
+                    <a href='https://leonidas019portfolio.netlify.app/'><button class="btnOk">Detalhes</button></a>
+
+                    <button class="btnClose" onClick="closeModal()">Fechar</button>
+                </div>
+            </div>
+        </div>
+
         <div data-scroll="suave" data-anima="scroll">
             <a href="#intro">
                 <div class="Button_Topo">
@@ -212,6 +229,7 @@
     <script src="js/scroll-animation.js"></script>
     <script src="js/javascript.js"></script>
     <script src="js/circle_animated.js"></script>
+    <script src="js/modal_popup.js"></script>
 </body>
 
 </html>
