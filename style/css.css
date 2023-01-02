@@ -614,9 +614,9 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: -40%;
   border-radius: 10px;
   display: none;
+  margin-top: -39%;
 }
 
 .modal h4 {
