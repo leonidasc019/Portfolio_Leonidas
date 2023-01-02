@@ -593,19 +593,21 @@ a:hover {
     height: 73%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -80px;
+    margin-top: -250px;
     background-color: red;
 }
 
 .image-wrap img {
     vertical-align: middle;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
     width: 100%;
     height: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.efeitozoom:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .modal {
@@ -615,7 +617,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    margin-top: -40%;
+    margin-top: -43%;
     border-radius: 10px;
     display: none;
 }
@@ -676,17 +678,15 @@ a:hover {
 
 .active {
     display: list-item;
-}
+    animation: modal .9s;
 
-.active .modal {
-    animation: modal .4s;
 }
 
 /* ------Animação Modal----------*/
 @keyframes modal {
     from {
         opacity: 0;
-        transform: translate3d(0, -60px, 0);
+        transform: translate3d(0, -190px, 0);
     }
 
     to {
