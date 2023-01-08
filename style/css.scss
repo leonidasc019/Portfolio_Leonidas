@@ -20,6 +20,7 @@ body {
 }
 
 
+
 .intro-content h1 {
     color: #FFFFFF;
     font-family: 'StarWars';
@@ -155,7 +156,7 @@ section {
 
 }
 
-@media(max-height: 1790px) {}
+
 
 .mini_sobre {
     display: flex;
@@ -342,6 +343,187 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:1723px) {
+
+    .circle {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        position: relative;
+        margin: 72px;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .box .text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #000;
+    }
+
+    .Box_Circle {
+        width: 900px;
+        height: 350px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width:1687px) {
+    .skills {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .circle {
+        width: 35px;
+        height: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .skills {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .circle {
+        width: 35px;
+        height: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .profile {
+        width: 30%;
+        height: 100%;
+        position: relative;
+        text-align: left;
+        max-width: 995px;
+        margin-top: -30px;
+    }
+
+    .profile h3 {
+        font-family: "poppins-bold", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .profile .info-list {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    .profile .info-list li strong {
+        font-family: "poppins-bold", sans-serif;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .profile .info-list li span {
+        display: block;
+        font-family: "poppins-regular", sans-serif;
+        color: #888888;
+        font-size: 10px;
+    }
+
+    .profile p {
+        text-align: left;
+        font-family: "lora-regular", serif;
+        font-size: 10px;
+        color: #888888;
+    }
+
+    .skills p {
+        text-align: left;
+        font-family: "lora-regular", serif;
+        font-size: 10px;
+        color: #888888;
+        margin-top: -200px;
+    }
+
+    .skills h3 {
+        font-family: "poppins-bold", sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: -18px;
+    }
+
+    .description {
+        margin-top: -60px;
+        width: 100%;
+        height: 25%;
+    }
+
+    .description .resumo {
+        text-align: left;
+        padding-left: 140px;
+        font-family: "lora-regular", serif;
+        font-size: 13px;
+        color: #888888;
+        margin-top: 52px;
+    }
+
+    .description img {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        margin: 85px 0 0 0;
+        float: left;
+    }
 }
 
 .circle .points {
