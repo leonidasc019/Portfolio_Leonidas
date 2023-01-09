@@ -27,5 +27,5 @@ https://leonidas019portfolio.netlify.app/
 
 Leônidas Dos Santos Chersoni
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/le%C3%B4nidas-chersoni-0b1614214/
 
