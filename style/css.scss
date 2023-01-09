@@ -4,6 +4,7 @@ body {
     font-size: 1.7rem;
     line-height: 3rem;
     color: #6e6e6e;
+    overflow-x: hidden !important;
 }
 
 #intro {
@@ -346,6 +347,9 @@ section {
 }
 
 @media screen and (max-width:1723px) {
+    body {
+        overflow-x: hidden !important;
+    }
 
     .circle {
         width: 40px;
@@ -379,9 +383,19 @@ section {
         height: 350px;
         margin-top: -150px;
     }
+
+    .show_button .Button_Topo {
+        right: 20px;
+        margin-right: 5%;
+    }
 }
 
 @media screen and (max-width:1687px) {
+
+    body {
+        overflow-x: hidden !important;
+    }
+
     .skills {
         margin: 0;
         padding: 0;
@@ -413,6 +427,10 @@ section {
 }
 
 @media screen and (max-width:995px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
     .skills {
         margin: 0;
         padding: 0;
@@ -524,6 +542,45 @@ section {
         margin: 85px 0 0 0;
         float: left;
     }
+
+
+
+
+    .Educ_Timeline p {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    .Educ_Timeline h3 {
+        font-family: "poppins-regular", sans-serif;
+        margin-bottom: 0;
+        font-size: 13px;
+        position: relative;
+
+    }
+
+    .Educ_Content h4 {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 13px;
+        color: #000;
+    }
+
+    .Educ_Content h4::after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 50px;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+    }
+
+    .Educ_Content p {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 10px;
+        color: #000;
+    }
+
 }
 
 .circle .points {
@@ -614,11 +671,10 @@ a:hover {
 
 .resume_header {
     width: 100%;
-    height: 60px;
+    height: 180px;
     display: flex;
     justify-content: center;
     position: relative;
-    top: -15%;
 }
 
 .resume_header h2 {
@@ -631,8 +687,8 @@ a:hover {
 }
 
 .TimeLine_Block {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -656,7 +712,7 @@ a:hover {
     text-align: center;
     color: #FFFFFF;
     position: relative;
-    left: 30%;
+    left: 31.5%;
     top: 30px;
 }
 
@@ -796,8 +852,10 @@ a:hover {
 }
 
 .workImageBlock {
-    width: 70%;
-    height: 73%;
+    .break {}
+
+    width: 20%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -120px;
