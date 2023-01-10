@@ -347,9 +347,6 @@ section {
 }
 
 @media screen and (max-width:1723px) {
-    body {
-        overflow-x: hidden !important;
-    }
 
     .circle {
         width: 40px;
@@ -392,10 +389,6 @@ section {
 
 @media screen and (max-width:1687px) {
 
-    body {
-        overflow-x: hidden !important;
-    }
-
     .skills {
         margin: 0;
         padding: 0;
@@ -427,9 +420,7 @@ section {
 }
 
 @media screen and (max-width:995px) {
-    body {
-        overflow-x: hidden !important;
-    }
+
 
     .skills {
         margin: 0;
@@ -583,6 +574,448 @@ section {
 
 }
 
+
+@media screen and (max-width:480px) {
+
+    .intro-content h1 {
+        color: #FFFFFF;
+        font-family: 'StarWars';
+        font-size: 2.9rem;
+        max-width: 900px;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
+    }
+
+    .intro-content h5 {
+        color: red;
+        font-family: 'StarWars';
+        font-size: 1.63rem;
+        line-height: 1.565;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+        font-weight: 900;
+
+    }
+
+    .intro-content .intro-position {
+        font-family: 'StarWars';
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        color: #FFFFFF;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+    .intro-content .button {
+        color: #FFFFFF;
+        border-color: rgba(255, 255, 255, 0.3);
+        height: 3rem;
+        line-height: 2.4rem;
+        padding: 0 3.5rem 0 3rem;
+        margin-top: .6rem;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: .25rem;
+    }
+
+    .coluna_Inicial {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    .a {
+        display: flex;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: rgb(255, 255, 255);
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 2px;
+        justify-content: center;
+        color: azure;
+        font-family: 'StarWars';
+        width: 190px;
+        height: 40px;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    section {
+        min-height: 100%;
+        display: flex;
+
+    }
+
+    .intro-social {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 7.2rem;
+        font-size: 3.3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro-social li {
+        display: inline-block;
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    .intro-social li a,
+    .intro-social li a:visited {
+        color: #FFFFFF;
+    }
+
+    .intro-social li a:hover,
+    .intro-social li a:focus {
+        color: #ce0707;
+    }
+
+    .intro-social {
+        font-size: 1.9rem;
+    }
+
+    .sobre {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        justify-content: center;
+    }
+
+    .area_secao_sobre {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Box_Circle {
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .mini_sobre {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 5%;
+    }
+
+    .mini_sobre2 {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .mini_sobre h5 {
+        font-size: 9px;
+        letter-spacing: .3rem;
+        color: #ce0707;
+        font-family: "poppins-bold", sans-serif;
+    }
+
+    .mini_sobre2 h4 {
+        color: black;
+        font-family: "poppins-bold", sans-serif;
+        font-size: 12px;
+    }
+
+    .informações {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -5%;
+    }
+
+    .description img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 85px 0 0 0;
+        float: left;
+        margin-top: auto;
+    }
+
+    .description {
+        width: 100%;
+        height: 25%;
+    }
+
+    .description .resumo {
+        width: 100%;
+        height: auto;
+        font-family: "lora-regular", serif;
+        font-size: 10px;
+        color: #888888;
+        margin-left: -29.5%;
+    }
+
+    .informações {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        top: 0.5%;
+    }
+
+    .profile {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        text-align: left;
+        max-width: 850px;
+    }
+
+    .profile h3 {
+        font-family: "poppins-bold", sans-serif;
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .profile .info-list {
+        list-style: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20%;
+        margin-top: -6%;
+    }
+
+    .profile .info-list li strong {
+        font-family: "poppins-bold", sans-serif;
+        color: #313131;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+    .profile .info-list li span {
+        font-family: "poppins-regular", sans-serif;
+        color: #888888;
+        font-size: 10px;
+        position: relative;
+        margin-top: -10%;
+    }
+
+    .profile p {
+        text-align: left;
+        font-family: "lora-regular", serif;
+        font-size: 10px;
+        color: #888888;
+        margin-top: -7%;
+    }
+
+    .skills {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 10%;
+    }
+
+    .skills p {
+        text-align: left;
+        font-family: "lora-regular", serif;
+        font-size: 9px;
+        color: #888888;
+        margin-top: -70%;
+        margin-left: -11%;
+    }
+
+    .skills h3 {
+        font-family: "poppins-bold", sans-serif;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -40%;
+    }
+
+    .Resume_Timeline {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .resume_header {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 440%;
+    }
+
+    .resume_header h2 {
+        font-family: "poppins-bold", sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #ce0707;
+        justify-content: center;
+    }
+
+    .TimeLine_Block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5%;
+        bottom: 10%;
+    }
+
+    .Block {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Block1 {
+        position: absolute;
+        padding-top: 115%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Box_Circle {
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -65%;
+    }
+
+    .Work_Resume {
+        width: 100%;
+        height: 100%;
+        color: #3a3a3a;
+        border-style: solid;
+        border-bottom: #3a3a3a;
+        border-width: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 390%;
+    }
+
+    .timeline-ico {
+        margin-left: -9.5%;
+    }
+
+    .Educ_Timeline {
+        width: 100%;
+        height: 55%;
+        position: relative;
+        top: -45px;
+        left: -5%;
+        margin-left: -5%;
+    }
+
+    .Educ_Content {
+        width: 100%;
+        height: 88%;
+        position: relative;
+    }
+
+    .Educ_Timeline p {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 10px;
+        color: #888888;
+    }
+
+    .Educ_Timeline h3 {
+        font-family: "poppins-regular", sans-serif;
+        margin-bottom: 0;
+        font-size: 10px;
+        position: relative;
+    }
+
+    .Educ_Content h4 {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 10px;
+        color: #000;
+    }
+
+    .Educ_Content h4::after {
+        display: block;
+        content: "";
+        height: 3px;
+        width: 50px;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+    }
+
+    .Educ_Content p {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 10px;
+        color: #000;
+    }
+
+    .workIntroh2h4 h2 {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        color: red;
+        font-size: 17px;
+        font-family: "poppins-bold", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .workIntroh2h4 h4 {
+        color: black;
+        font-size: 10px;
+        font-family: "poppins-bold", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: center;
+        margin-top: -25px;
+    }
+
+}
+
+
 .circle .points {
     width: 3px;
     height: 15px;
@@ -702,6 +1135,13 @@ a:hover {
     background-color: #FFFFFF;
     width: 90%;
     height: 49%;
+}
+
+.Block1 {
+    position: relative;
+    width: 90%;
+    height: 49%;
+    margin-top: -50px;
 }
 
 .timeline-ico {
