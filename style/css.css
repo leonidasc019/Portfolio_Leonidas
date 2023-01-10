@@ -524,7 +524,22 @@ section {
     color: #000;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 527px) {
+  html {
+    overflow-x: hidden !important;
+  }
+  #intro {
+    background: #151515 url(/imgs/pexels-cameron-casey-1722179.jpg) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+  }
   .intro-content h1 {
     color: #FFFFFF;
     font-family: "StarWars";
@@ -790,11 +805,12 @@ section {
   }
   .resume_header h2 {
     font-family: "poppins-bold", sans-serif;
-    font-size: 17px;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ce0707;
     justify-content: center;
+    margin-top: 20%;
   }
   .TimeLine_Block {
     width: 100%;
@@ -823,6 +839,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     margin-top: -65%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .Work_Resume {
     width: 100%;
@@ -853,18 +871,15 @@ section {
   }
   .Educ_Timeline p {
     font-family: "poppins-regular", sans-serif;
-    font-size: 10px;
     color: #888888;
   }
   .Educ_Timeline h3 {
     font-family: "poppins-regular", sans-serif;
     margin-bottom: 0;
-    font-size: 10px;
     position: relative;
   }
   .Educ_Content h4 {
     font-family: "poppins-regular", sans-serif;
-    font-size: 10px;
     color: #000;
   }
   .Educ_Content h4::after {
@@ -887,7 +902,7 @@ section {
     justify-content: center;
     justify-items: center;
     color: red;
-    font-size: 17px;
+    font-size: 10px;
     font-family: "poppins-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -901,6 +916,65 @@ section {
     display: flex;
     justify-content: center;
     margin-top: -25px;
+  }
+  .Work_Resume {
+    width: 100%;
+    height: 100%;
+    color: white;
+    border-style: solid;
+    border-bottom: white;
+    border-width: 1px;
+    display: flex;
+  }
+  .image-wrap img {
+    margin-top: 170%;
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+  }
+  .workIntroh2h4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .modal {
+    width: 30%;
+    height: 73%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -43%;
+    border-radius: 10px;
+    display: none;
+  }
+  .modal h4 {
+    color: black;
+    font-size: 5px;
+    font-family: "poppins-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+  }
+  .modal span {
+    letter-spacing: 1px;
+    font-family: "lora-regular", serif;
+    font-size: 5px;
+    color: #888888;
+    text-align: center;
+    display: flex;
+  }
+  .modal .btns {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 10px;
+    margin-top: 10px;
+  }
+  .btns button {
+    display: flex;
+    font-size: smaller;
   }
 }
 .circle .points {
