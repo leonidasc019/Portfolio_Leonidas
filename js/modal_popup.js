@@ -5,6 +5,7 @@ const Work_Resume = document.querySelector('.Work_Resume')
 function openModal() {
     if (window.innerWidth < 900) {
         window.location.href = 'https://leonidas019portfolio.netlify.app/';
+
     } else {
         modal.classList.add('active')
         workImageBlock.classList.add('image_opac')
