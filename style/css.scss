@@ -266,6 +266,7 @@ section {
 }
 
 .skills {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -803,6 +804,7 @@ section {
         position: relative;
         text-align: left;
         max-width: 850px;
+        margin-left: 2%;
     }
 
     .profile h3 {
@@ -847,25 +849,21 @@ section {
     }
 
     .skills {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-left: 10%;
+        position: relative;
+        text-align: left;
+        max-width: 850px;
+        margin-left: 2%;
+        margin-top: 12%;
     }
 
     .skills p {
         text-align: left;
         font-family: "lora-regular", serif;
-        font-size: 9px;
+        font-size: 10px;
         color: #888888;
         margin-top: -70%;
-        margin-left: -11%;
     }
 
     .skills h3 {
@@ -888,6 +886,7 @@ section {
         align-items: center;
         align-content: center;
         justify-items: center;
+        padding-top: 30%;
     }
 
     .resume_header {
@@ -906,7 +905,7 @@ section {
         letter-spacing: 2px;
         color: #ce0707;
         justify-content: center;
-        margin-top: 20%;
+
     }
 
     .TimeLine_Block {
@@ -1183,9 +1182,6 @@ a:hover {
     align-items: center;
     align-content: center;
     justify-items: center;
-    border-style: solid;
-    border-bottom: #3a3a3a;
-    border-width: 1px;
     margin-top: 10%;
 }
 
@@ -1195,6 +1191,9 @@ a:hover {
     display: flex;
     justify-content: center;
     position: relative;
+    border-style: solid;
+    border-bottom: #3a3a3a;
+    border-width: 1px;
 }
 
 .resume_header h2 {
