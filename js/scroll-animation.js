@@ -11,11 +11,11 @@ function animarScroll() {
     if (window.innerWidth > 900) {
         if (visibleItem) {
             scrollAnima.classList.add('show_button')
-        } else {
-            scrollAnima.classList.remove('show_button')
         }
-        //console.log(visibleItem);
-        //console.log(topoItem);
+    } else {
+        scrollAnima.classList.remove('show_button')
     }
+    //console.log(visibleItem);
+    //console.log(topoItem);
 
     window.addEventListener('scroll', animarScroll);
