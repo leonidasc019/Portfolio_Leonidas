@@ -1198,18 +1198,31 @@ section {
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
-    right: 100%;
+    right: 80%;
+  }
+  .workIntroh2h4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+    height: 100% !important;
   }
   .workIntroh2h4 h4 {
     color: black;
-    font-size: 10px;
     font-family: "poppins-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 14px !important;
     display: flex;
     justify-content: center;
-    margin-top: -25px;
     position: relative;
+    text-align: center;
+  }
+  .workIntroh2h4 p {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
   }
   .Work_Resume {
     width: 100%;
@@ -1222,12 +1235,19 @@ section {
     position: relative;
     top: 30%;
   }
-  .image-wrap img {
-    margin-top: 170%;
+  .workImageBlock {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
-    width: 70px;
-    height: 70px;
+    justify-content: center !important;
+  }
+  .image-wrap img {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -20%;
+    left: 19.7%;
+    justify-content: center !important;
   }
   .workIntroh2h4 {
     display: flex;
