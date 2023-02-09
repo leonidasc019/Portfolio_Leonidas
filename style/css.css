@@ -524,10 +524,8 @@ section {
     transform: rotate(calc(var(--i) * var(--rot))) translateY(-100px);
   }
   .points.marked {
-    -webkit-animation: glow 0.04s linear forwards;
-            animation: glow 0.04s linear forwards;
-    -webkit-animation-delay: calc(var(--i) * 0.05s);
-            animation-delay: calc(var(--i) * 0.05s);
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i) * 0.05s);
   }
   .Work_Resume {
     width: 100%;
@@ -895,11 +893,11 @@ section {
     padding: 0;
   }
   .intro-social li a,
-.intro-social li a:visited {
+  .intro-social li a:visited {
     color: #FFFFFF;
   }
   .intro-social li a:hover,
-.intro-social li a:focus {
+  .intro-social li a:focus {
     color: #ce0707;
   }
   .intro-social {
@@ -1132,10 +1130,8 @@ section {
     transform: rotate(calc(var(--i) * var(--rot))) translateY(-10px);
   }
   .points.marked {
-    -webkit-animation: glow 0.04s linear forwards;
-            animation: glow 0.04s linear forwards;
-    -webkit-animation-delay: calc(var(--i) * 0.05s);
-            animation-delay: calc(var(--i) * 0.05s);
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i) * 0.05s);
   }
   .Work_Resume {
     width: 100%;
@@ -1303,21 +1299,8 @@ section {
 }
 
 .points.marked {
-  -webkit-animation: glow 0.04s linear forwards;
-          animation: glow 0.04s linear forwards;
-  -webkit-animation-delay: calc(var(--i) * 0.05s);
-          animation-delay: calc(var(--i) * 0.05s);
-}
-
-@-webkit-keyframes glow {
-  0% {
-    background: rgba(0, 0, 0, 0.4666666667);
-    box-shadow: none;
-  }
-  100% {
-    background: var(--bgColor);
-    box-shadow: 0 0 10px var(--bgColor);
-  }
+  animation: glow 0.04s linear forwards;
+  animation-delay: calc(var(--i) * 0.05s);
 }
 
 @keyframes glow {
@@ -1528,10 +1511,10 @@ a:hover {
 }
 
 .workIntroh2h4 {
+  position: relative;
   width: 40%;
   height: 35%;
-  margin-left: auto;
-  margin-right: auto;
+  left: 30%;
 }
 
 .workIntroh2h4 h2 {
@@ -1583,6 +1566,9 @@ a:hover {
   height: 100%;
   transition: all 0.5s;
   cursor: pointer;
+  position: relative;
+  margin-top: 40%;
+  right: 35%;
 }
 
 .efeitozoom:hover {
@@ -1655,21 +1641,10 @@ a:hover {
 
 .active {
   display: list-item;
-  -webkit-animation: modal 0.9s;
-          animation: modal 0.9s;
+  animation: modal 0.9s;
 }
 
 /* ------Animação Modal----------*/
-@-webkit-keyframes modal {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -190px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
 @keyframes modal {
   from {
     opacity: 0;
@@ -1709,41 +1684,23 @@ svg.tea {
 svg.tea #teabag {
   transform-origin: top center;
   transform: rotate(3deg);
-  -webkit-animation: swing 2s infinite;
-          animation: swing 2s infinite;
+  animation: swing 2s infinite;
 }
 
 svg.tea #steamL {
   stroke-dasharray: 13;
   stroke-dashoffset: 13;
-  -webkit-animation: steamLarge 2s infinite;
-          animation: steamLarge 2s infinite;
+  animation: steamLarge 2s infinite;
 }
 
 svg.tea #steamR {
   stroke-dasharray: 9;
   stroke-dashoffset: 9;
-  -webkit-animation: steamSmall 2s infinite;
-          animation: steamSmall 2s infinite;
-}
-@-webkit-keyframes swing {
-  50% {
-    transform: rotate(-3deg);
-  }
+  animation: steamSmall 2s infinite;
 }
 @keyframes swing {
   50% {
     transform: rotate(-3deg);
-  }
-}
-@-webkit-keyframes steamLarge {
-  0% {
-    stroke-dashoffset: 13;
-    opacity: 0.6;
-  }
-  100% {
-    stroke-dashoffset: 39;
-    opacity: 0;
   }
 }
 @keyframes steamLarge {
@@ -1753,20 +1710,6 @@ svg.tea #steamR {
   }
   100% {
     stroke-dashoffset: 39;
-    opacity: 0;
-  }
-}
-@-webkit-keyframes steamSmall {
-  10% {
-    stroke-dashoffset: 9;
-    opacity: 0.6;
-  }
-  80% {
-    stroke-dashoffset: 27;
-    opacity: 0;
-  }
-  100% {
-    stroke-dashoffset: 27;
     opacity: 0;
   }
 }
