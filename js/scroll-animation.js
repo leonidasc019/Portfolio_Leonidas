@@ -19,3 +19,4 @@ function animarScroll() {
     //console.log(topoItem);
 
     window.addEventListener('scroll', animarScroll);
+}
