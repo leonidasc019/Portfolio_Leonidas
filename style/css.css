@@ -1444,7 +1444,7 @@ a:hover {
   height: 55%;
   position: relative;
   top: -45px;
-  left: -5%;
+  left: 10%;
 }
 
 .Educ_Content {
@@ -1576,13 +1576,11 @@ a:hover {
 }
 
 .modal {
-  width: 30%;
-  height: 73%;
+  width: 40%;
+  height: 100%;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
-  margin-top: -43%;
+  bottom: 100%;
   border-radius: 10px;
   display: none;
 }
@@ -1610,8 +1608,8 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 200px;
-  margin-top: 10px;
-  margin-top: 10px;
+  position: relative;
+  bottom: 5px;
 }
 
 .btns button {
