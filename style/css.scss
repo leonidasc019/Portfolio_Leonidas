@@ -17,10 +17,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
-
-
 
 .intro-content h1 {
     color: #FFFFFF;
@@ -41,7 +38,6 @@ body {
     letter-spacing: .3rem;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     font-weight: 900;
-
 }
 
 .intro-content .intro-position {
@@ -53,8 +49,6 @@ body {
     color: #FFFFFF;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
-
-
 
 .intro-content .button {
     color: #FFFFFF;
@@ -90,11 +84,9 @@ body {
     align-content: center;
 }
 
-
 section {
     min-height: 100%;
     display: flex;
-
 }
 
 .intro-social {
@@ -128,13 +120,17 @@ section {
     font-size: 2.4rem;
 }
 
+
 /* Quebra Linha*/
+
 .break {
     flex-basis: 100%;
     height: 0;
 }
 
+
 /* Section Sobre Eu*/
+
 .sobre {
     width: 100%;
     height: 100%;
@@ -256,7 +252,6 @@ section {
 }
 
 .skills {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -284,7 +279,9 @@ section {
     letter-spacing: 2px;
 }
 
+
 /* Scroll Bar Personal*/
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -306,7 +303,6 @@ section {
     height: 50%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .box {
@@ -346,7 +342,6 @@ section {
 }
 
 @media screen and (max-width:1723px) {
-
     .circle {
         width: 40px;
         height: 40px;
@@ -355,7 +350,6 @@ section {
         justify-content: center;
         align-items: center;
     }
-
     .box {
         position: relative;
         margin: 72px;
@@ -364,7 +358,6 @@ section {
         flex-wrap: wrap;
         flex-direction: row;
     }
-
     .box .text {
         position: absolute;
         top: 30%;
@@ -373,13 +366,11 @@ section {
         text-align: center;
         color: #000;
     }
-
     .Box_Circle {
         width: 900px;
         height: 350px;
         margin-top: -150px;
     }
-
     .show_button .Button_Topo {
         right: 20px;
         margin-right: 5%;
@@ -387,7 +378,6 @@ section {
 }
 
 @media screen and (max-width:1687px) {
-
     .skills {
         margin: 0;
         padding: 0;
@@ -399,7 +389,6 @@ section {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .circle {
         width: 35px;
         height: 10px;
@@ -407,9 +396,7 @@ section {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-
     }
-
     .box {
         position: relative;
         display: flex;
@@ -431,7 +418,6 @@ section {
         font-family: "poppins-bold", sans-serif;
         font-size: 22px;
     }
-
     .description .resumo {
         text-align: left;
         padding-left: 140px;
@@ -440,7 +426,6 @@ section {
         color: #888888;
         margin-top: -0.5;
     }
-    
     .description img {
         height: 108px;
         width: 108px;
@@ -449,28 +434,21 @@ section {
         float: left;
         margin-top: -1%;
     }
-
-    
     .profile h3 {
         font-size: 14px;
         letter-spacing: 1px;
     }
-    
-    
     .profile .info-list li strong {
         letter-spacing: 1px;
         font-size: 14px;
     }
-    
     .profile .info-list li span {
         font-size: 12px;
     }
-    
     .profile p {
         font-size: 12px;
         margin-top: -7.5%;
     }
-
     .informações {
         width: 100%;
         height: 100%;
@@ -485,9 +463,7 @@ section {
         text-align: left;
         max-width: 850px;
     }
-
     .skills {
-
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -499,7 +475,6 @@ section {
         flex-wrap: wrap;
         margin-left: 1%;
     }
-    
     .skills p {
         text-align: left;
         font-family: "lora-regular", serif;
@@ -508,49 +483,40 @@ section {
         margin-top: -7.5%;
         width: 100%;
     }
-    
     .skills h3 {
         font-family: "poppins-bold", sans-serif;
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
-
     .Box_Circle {
         margin-top: -15%;
         margin-left: -10%;
     }
-
-    .box
-    {
+    .box {
         width: 20%;
         position: relative;
         margin: 60px;
     }
-    .box .text
-    {
+    .box .text {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         text-align: center;
         color: #000;
         margin-left: -32%;
     }
-    .box .text h2
-    {
+    .box .text h2 {
         font-size: 18px;
         font-weight: 50;
         letter-spacing: 1px;
     }
-    .box .text small
-    {
+    .box .text small {
         font-size: 14px;
         display: block;
     }
-    
-    .circle
-    {
+    .circle {
         width: 40px;
         height: 40px;
         display: flex;
@@ -558,22 +524,18 @@ section {
         justify-content: center;
         align-items: center;
     }
-    .circle .points
-    {
+    .circle .points {
         width: 3px;
         height: 15px;
         background: #0007;
         position: absolute;
         border-radius: 3px;
         transform: rotate(calc(var(--i)*var(--rot))) translateY(-100px);
-        
     }
-    .points.marked
-    {
+    .points.marked {
         animation: glow 0.04s linear forwards;
         animation-delay: calc(var(--i)*0.05s);
     }
-
     .Work_Resume {
         width: 100%;
         height: 100%;
@@ -583,25 +545,19 @@ section {
         border-width: 1px;
         display: flex;
         flex-wrap: wrap;
-    
     }
-    
     .image_opac {
-    
         opacity: 50%;
     }
-    
     .resume_opac {
         background-color: rgba(0, 0, 0, 0.6);
     }
-    
     .workIntroh2h4 {
         width: 40%;
         height: 35%;
         margin-left: auto;
         margin-right: auto;
     }
-    
     .workIntroh2h4 h2 {
         display: flex;
         align-items: center;
@@ -615,7 +571,6 @@ section {
         letter-spacing: 2px;
         padding-left: 122%;
     }
-    
     .workIntroh2h4 h4 {
         color: black;
         font-size: 18px;
@@ -628,7 +583,6 @@ section {
         width: 200%;
         padding-left: 15%;
     }
-    
     .workIntroh2h4 p {
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -642,39 +596,32 @@ section {
         width: 200%;
         padding-left: 15%;
     }
-    
     .workImageBlock {
         .break {}
-    
         width: 20%;
         height: 50%;
         margin-left: auto;
         margin-right: auto;
         margin-top: -120px;
     }
-    
     .image-wrap img {
         vertical-align: middle;
         width: 100%;
         height: 100%;
         transition: all 0.5s;
         cursor: pointer;
-
     }
-
-    .image-wrap{
+    .image-wrap {
         width: 100%;
         height: 100%;
         margin-top: 50%;
         margin-left: -40%;
         padding-bottom: 40px;
     }
-    
     .efeitozoom:hover {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
-    
     .modal {
         width: 60% !important;
         height: 150% !important;
@@ -685,7 +632,6 @@ section {
         border-radius: 10px;
         display: none;
     }
-    
     .modal h4 {
         color: black;
         font-size: 15px !important;
@@ -695,7 +641,6 @@ section {
         display: flex;
         justify-content: center;
     }
-    
     .modal span {
         letter-spacing: 2px;
         font-family: "lora-regular", serif;
@@ -704,7 +649,6 @@ section {
         text-align: center;
         display: flex;
     }
-    
     .modal .btns {
         display: flex;
         justify-content: center;
@@ -712,7 +656,6 @@ section {
         margin-top: 10px;
         margin-top: 10px;
     }
-    
     .btns button {
         font-size: medium;
         padding: 10px;
@@ -723,24 +666,17 @@ section {
         font-family: "poppins-bold", sans-serif;
         letter-spacing: 1px;
     }
-    
-    
     .btnOk {
-    
         background-color: aqua !important;
     }
-    
     .btnClose {
         background-color: brown !important;
     }
-    
     .modal img {
         width: 100%;
         height: 50%;
         border-radius: 10px;
     }
-
-    
 }
 
 @media screen and (max-width:995px) {
@@ -759,7 +695,6 @@ section {
         flex-wrap: wrap;
         margin-left: 20px;
     }
-
     .circle {
         width: 35px;
         height: 10px;
@@ -767,16 +702,13 @@ section {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-
     }
-
     .box {
         position: relative;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
     }
-
     .profile {
         width: 30%;
         height: 100%;
@@ -785,19 +717,16 @@ section {
         max-width: 995px;
         margin-top: -30px;
     }
-
     .profile h3 {
         font-family: "poppins-bold", sans-serif;
         font-size: 13px;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
-
     .profile .info-list {
         list-style: none;
         margin-left: 0;
     }
-
     .profile .info-list li strong {
         font-family: "poppins-bold", sans-serif;
         color: #313131;
@@ -805,21 +734,18 @@ section {
         letter-spacing: 2px;
         font-size: 10px;
     }
-
     .profile .info-list li span {
         display: block;
         font-family: "poppins-regular", sans-serif;
         color: #888888;
         font-size: 10px;
     }
-
     .profile p {
         text-align: left;
         font-family: "lora-regular", serif;
         font-size: 10px;
         color: #888888;
     }
-
     .skills p {
         text-align: left;
         font-family: "lora-regular", serif;
@@ -827,7 +753,6 @@ section {
         color: #888888;
         margin-top: -200px;
     }
-
     .skills h3 {
         font-family: "poppins-bold", sans-serif;
         font-size: 13px;
@@ -835,13 +760,11 @@ section {
         letter-spacing: 2px;
         margin-top: -18px;
     }
-
     .description {
         margin-top: -60px;
         width: 100%;
         height: 25%;
     }
-
     .description .resumo {
         text-align: left;
         padding-left: 140px;
@@ -850,7 +773,6 @@ section {
         color: #888888;
         margin-top: 52px;
     }
-
     .description img {
         height: 90px;
         width: 90px;
@@ -858,30 +780,22 @@ section {
         margin: 85px 0 0 0;
         float: left;
     }
-
-
-
-
     .Educ_Timeline p {
         font-family: "poppins-regular", sans-serif;
         font-size: 13px;
         color: #888888;
     }
-
     .Educ_Timeline h3 {
         font-family: "poppins-regular", sans-serif;
         margin-bottom: 0;
         font-size: 13px;
         position: relative;
-
     }
-
     .Educ_Content h4 {
         font-family: "poppins-regular", sans-serif;
         font-size: 13px;
         color: #000;
     }
-
     .Educ_Content h4::after {
         content: "";
         display: block;
@@ -890,15 +804,12 @@ section {
         background: rgba(0, 0, 0, 0.2);
         position: absolute;
     }
-
     .Educ_Content p {
         font-family: "poppins-regular", sans-serif;
         font-size: 10px;
         color: #000;
     }
-
 }
-
 
 @media screen and (max-width:527px) {
     #intro {
@@ -913,12 +824,10 @@ section {
         text-align: center;
         background-color: #000;
     }
-
-    .intro-content{
+    .intro-content {
         left: 40%;
         position: relative;
     }
-
     .intro-content h1 {
         color: #FFFFFF;
         font-family: 'StarWars';
@@ -927,7 +836,6 @@ section {
         text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         font-weight: 900;
     }
-
     .intro-content h5 {
         color: red;
         font-family: 'StarWars';
@@ -938,9 +846,7 @@ section {
         letter-spacing: .3rem;
         text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
         font-weight: 900;
-
     }
-
     .intro-content .intro-position {
         font-family: 'StarWars';
         font-size: 1.2rem;
@@ -950,9 +856,6 @@ section {
         color: #FFFFFF;
         text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     }
-
-
-
     .intro-content .button {
         color: #FFFFFF;
         border-color: rgba(255, 255, 255, 0.3);
@@ -964,12 +867,10 @@ section {
         text-transform: uppercase;
         letter-spacing: .25rem;
     }
-
     .coluna_Inicial {
         width: 100%;
         margin-top: 25%;
     }
-
     .a {
         display: flex;
         margin-top: 10%;
@@ -987,14 +888,10 @@ section {
         align-items: center;
         align-content: center;
     }
-
-
     section {
         min-height: 100%;
         display: flex;
-
     }
-
     .intro-social {
         display: flex;
         position: relative;
@@ -1003,57 +900,47 @@ section {
         top: 80%;
         left: -40%
     }
-
     .intro-social li {
         display: inline-block;
         margin: 0 20px;
         padding: 0;
     }
-
     .intro-social li a,
     .intro-social li a:visited {
         color: #FFFFFF;
     }
-
     .intro-social li a:hover,
     .intro-social li a:focus {
         color: #ce0707;
     }
-
     .intro-social {
         font-size: 1.9rem;
     }
-
     .sobre {
         width: 100%;
         height: 100%;
         color: #000;
         justify-content: center;
     }
-
     .area_secao_sobre {
         width: 100%;
         height: 100%;
         display: flex;
         flex-wrap: wrap;
     }
-
     .Box_Circle {
         width: 70%;
         height: 50%;
         display: flex;
         flex-wrap: wrap;
     }
-
-    .Box_Circle .box{
+    .Box_Circle .box {
         position: relative;
         padding: -10%;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
     }
-
-
     .mini_sobre {
         display: flex;
         align-items: center;
@@ -1063,7 +950,6 @@ section {
         width: 100%;
         height: 5%;
     }
-
     .mini_sobre2 {
         width: 100%;
         height: 5%;
@@ -1073,20 +959,17 @@ section {
         justify-items: center;
         justify-content: center;
     }
-
     .mini_sobre h5 {
         font-size: 9px;
         letter-spacing: .3rem;
         color: #ce0707;
         font-family: "poppins-bold", sans-serif;
     }
-
     .mini_sobre2 h4 {
         color: black;
         font-family: "poppins-bold", sans-serif;
         font-size: 12px;
     }
-
     .informações {
         width: 100%;
         height: 80%;
@@ -1095,7 +978,6 @@ section {
         position: relative;
         top: -5%;
     }
-
     .description img {
         height: 50px;
         width: 50px;
@@ -1104,12 +986,10 @@ section {
         float: left;
         margin-top: auto;
     }
-
     .description {
         width: 100%;
         height: 25%;
     }
-
     .description .resumo {
         width: 100%;
         height: auto;
@@ -1118,7 +998,6 @@ section {
         color: #888888;
         margin-left: -29.5%;
     }
-
     .informações {
         width: 100%;
         height: 80%;
@@ -1126,7 +1005,6 @@ section {
         flex-wrap: wrap;
         top: 0.5%;
     }
-
     .profile {
         width: 100%;
         height: 100%;
@@ -1135,14 +1013,12 @@ section {
         max-width: 850px;
         margin-left: 2%;
     }
-
     .profile h3 {
         font-family: "poppins-bold", sans-serif;
         font-size: 9px;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
-
     .profile .info-list {
         list-style: none;
         width: 100%;
@@ -1152,7 +1028,6 @@ section {
         gap: 20%;
         margin-top: -6%;
     }
-
     .profile .info-list li strong {
         font-family: "poppins-bold", sans-serif;
         color: #313131;
@@ -1160,7 +1035,6 @@ section {
         letter-spacing: 2px;
         font-size: 10px;
     }
-
     .profile .info-list li span {
         font-family: "poppins-regular", sans-serif;
         color: #888888;
@@ -1168,7 +1042,6 @@ section {
         position: relative;
         margin-top: -10%;
     }
-
     .profile p {
         text-align: left;
         font-family: "lora-regular", serif;
@@ -1176,7 +1049,6 @@ section {
         color: #888888;
         margin-top: -7%;
     }
-
     .skills {
         width: 100%;
         height: 100%;
@@ -1186,7 +1058,6 @@ section {
         margin-left: 2%;
         margin-top: 12%;
     }
-
     .skills p {
         text-align: left;
         font-family: "lora-regular", serif;
@@ -1194,7 +1065,6 @@ section {
         color: #888888;
         margin-top: -70%;
     }
-
     .skills h3 {
         font-family: "poppins-bold", sans-serif;
         font-size: 10px;
@@ -1204,7 +1074,6 @@ section {
         margin-right: auto;
         margin-top: -40%;
     }
-
     .Resume_Timeline {
         width: 100%;
         height: 100%;
@@ -1217,7 +1086,6 @@ section {
         justify-items: center;
         padding-top: 30%;
     }
-
     .resume_header {
         width: 100%;
         height: 180px;
@@ -1226,7 +1094,6 @@ section {
         position: relative;
         margin-top: 440%;
     }
-
     .resume_header h2 {
         font-family: "poppins-bold", sans-serif;
         font-size: 10px;
@@ -1234,9 +1101,7 @@ section {
         letter-spacing: 2px;
         color: #ce0707;
         justify-content: center;
-
     }
-
     .TimeLine_Block {
         width: 100%;
         height: 100%;
@@ -1248,12 +1113,10 @@ section {
         left: 5%;
         bottom: 10%;
     }
-
     .Block {
         width: 100%;
         height: 100%;
     }
-
     .Block1 {
         position: relative;
         padding-top: 115%;
@@ -1261,7 +1124,6 @@ section {
         height: 100%;
         top: 20%;
     }
-
     .Box_Circle {
         width: 85%;
         height: 10%;
@@ -1272,7 +1134,6 @@ section {
         margin-right: auto;
         gap: 25px;
     }
-
     .circle .points {
         width: 3px;
         height: 15px;
@@ -1280,14 +1141,11 @@ section {
         position: absolute;
         border-radius: 3px;
         transform: rotate(calc(var(--i)*var(--rot))) translateY(-10px);
-    
     }
-    
     .points.marked {
         animation: glow 0.04s linear forwards;
         animation-delay: calc(var(--i)*0.05s);
     }
-    
     .Work_Resume {
         width: 100%;
         height: 100%;
@@ -1299,11 +1157,9 @@ section {
         flex-wrap: wrap;
         margin-top: 390%;
     }
-
     .timeline-ico {
         margin-left: -9.5%;
     }
-
     .Educ_Timeline {
         width: 100%;
         height: 55%;
@@ -1312,30 +1168,24 @@ section {
         left: -5%;
         margin-left: -5%;
     }
-
     .Educ_Content {
         width: 100%;
         height: 88%;
         position: relative;
-        
     }
-
     .Educ_Timeline p {
         font-family: "poppins-regular", sans-serif;
         color: #888888;
     }
-
     .Educ_Timeline h3 {
         font-family: "poppins-regular", sans-serif;
         margin-bottom: 0;
         position: relative;
     }
-
     .Educ_Content h4 {
         font-family: "poppins-regular", sans-serif;
         color: #000;
     }
-
     .Educ_Content h4::after {
         display: block;
         content: "";
@@ -1344,13 +1194,11 @@ section {
         background: rgba(0, 0, 0, 0.2);
         position: absolute;
     }
-
     .Educ_Content p {
         font-family: "poppins-regular", sans-serif;
         font-size: 10px;
         color: #000;
     }
-
     .workIntroh2h4 h2 {
         display: flex;
         color: red;
@@ -1359,16 +1207,14 @@ section {
         text-transform: uppercase;
         letter-spacing: 2px;
         position: relative;
-        right:80%;
+        right: 80%;
     }
-
-    .workIntroh2h4{
+    .workIntroh2h4 {
         display: flex;
         flex-wrap: wrap;
         width: 100% !important;
         height: 100% !important;
     }
-
     .workIntroh2h4 h4 {
         color: black;
         font-family: "poppins-bold", sans-serif;
@@ -1397,15 +1243,13 @@ section {
         display: flex;
         position: relative;
         top: 30%;
-
     }
-    .workImageBlock{
+    .workImageBlock {
         display: flex;
         flex-wrap: wrap;
         position: relative;
         justify-content: center !important;
     }
-
     .image-wrap img {
         display: flex;
         flex-wrap: wrap;
@@ -1414,12 +1258,10 @@ section {
         left: 19.7%;
         justify-content: center !important;
     }
-
     .workIntroh2h4 {
         display: flex;
         flex-wrap: wrap;
     }
-
     .modal {
         width: 30%;
         height: 73%;
@@ -1430,9 +1272,7 @@ section {
         margin-top: -43%;
         border-radius: 10px;
         display: none;
-
     }
-
     .modal h4 {
         color: black;
         font-size: 5px;
@@ -1442,7 +1282,6 @@ section {
         display: flex;
         justify-content: center;
     }
-
     .modal span {
         letter-spacing: 1px;
         font-family: "lora-regular", serif;
@@ -1451,7 +1290,6 @@ section {
         text-align: center;
         display: flex;
     }
-
     .modal .btns {
         display: flex;
         justify-content: center;
@@ -1459,15 +1297,11 @@ section {
         margin-top: 10px;
         margin-top: 10px;
     }
-
     .btns button {
         display: flex;
         font-size: smaller;
     }
-
-
 }
-
 
 .circle .points {
     width: 3px;
@@ -1476,7 +1310,6 @@ section {
     position: absolute;
     border-radius: 3px;
     transform: rotate(calc(var(--i)*var(--rot))) translateY(-80px);
-
 }
 
 .points.marked {
@@ -1489,14 +1322,15 @@ section {
         background: #0007;
         box-shadow: none;
     }
-
     100% {
         background: var(--bgColor);
         box-shadow: 0 0 10px var(--bgColor);
     }
 }
 
+
 /*---------FIM CIRCULO ANIMADO PROGRESS-----------*/
+
 .Button_Topo {
     background-color: #FFFFFF;
     position: fixed;
@@ -1508,7 +1342,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .Button_Topo img {
@@ -1526,7 +1359,6 @@ h1 {
 }
 
 a {
-
     color: azure;
 }
 
@@ -1535,6 +1367,7 @@ a:hover {
     outline: 0;
     color: #ce0707;
 }
+
 
 /* Section Sobre Experiencia Trabalho */
 
@@ -1609,7 +1442,6 @@ a:hover {
     top: 30px;
 }
 
-
 .TimeLine_Block::before {
     content: "";
     width: 1px;
@@ -1635,7 +1467,6 @@ a:hover {
 }
 
 .Educ_Content {
-
     width: 60%;
     height: 88%;
     position: relative;
@@ -1654,7 +1485,6 @@ a:hover {
     margin-bottom: 0;
     font-size: 18px;
     position: relative;
-
 }
 
 .Educ_Content h4 {
@@ -1678,8 +1508,12 @@ a:hover {
     color: #000;
 }
 
+
 /* FIM DA SECTION DO TRABALHO*/
+
+
 /* INICIO SECTION WORK RESUME */
+
 .Work_Resume {
     width: 100%;
     height: 100%;
@@ -1689,11 +1523,9 @@ a:hover {
     border-width: 1px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .image_opac {
-
     opacity: 50%;
 }
 
@@ -1706,7 +1538,6 @@ a:hover {
     width: 40%;
     height: 35%;
     left: 30%;
-
 }
 
 .workIntroh2h4 h2 {
@@ -1746,24 +1577,34 @@ a:hover {
 }
 
 .workImageBlock {
-    .break {}
-
+    display: flex;
+    position: relative;
+    right: 20%;
+    top: 20%;
     width: 20%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -120px;
+    height: 20%;
+}
+
+.workImageBlock2 {
+    display: flex;
+    position: relative;
+    right: 50%;
+    top: 20%;
+    width: 100%;
+    height: 20%;
+}
+
+.image-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .image-wrap img {
     vertical-align: middle;
-    width: 100%;
-    height: 100%;
     transition: all 0.5s;
     cursor: pointer;
-    position: relative;
-    margin-top: 40%;
-    right: 35%;
+    width: 100%;
+    height: 100%;
 }
 
 .efeitozoom:hover {
@@ -1779,7 +1620,6 @@ a:hover {
     bottom: 100%;
     border-radius: 10px;
     display: none;
-
 }
 
 .modal h4 {
@@ -1809,6 +1649,48 @@ a:hover {
     bottom: 5px;
 }
 
+.modal2 {
+    position: relative;
+    left: 110%;
+    bottom: 400%;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.modal2 h4 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "poppins-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal2 span {
+    letter-spacing: 2px;
+    font-family: "lora-regular", serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+}
+
+.modal2 .btns {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+    top: 15px;
+}
+
+.modal2 img {
+    width: 100%;
+    height: 150%;
+    border-radius: 10px;
+}
+
 .btns button {
     font-size: medium;
     padding: 10px;
@@ -1820,9 +1702,7 @@ a:hover {
     letter-spacing: 1px;
 }
 
-
 .btnOk {
-
     background-color: aqua !important;
 }
 
@@ -1841,22 +1721,26 @@ a:hover {
     animation: modal .9s;
 }
 
+
 /* ------Animação Modal----------*/
+
 @keyframes modal {
     from {
         opacity: 0;
         transform: translate3d(0, -190px, 0);
     }
-
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
 
+
 /* ------ FIM da Animação Modal----------*/
 
+
 /* -----------------------Inicio Pre Loader da Chicara------------------*/
+
 #preloader {
     position: fixed;
     top: 0;
@@ -1928,7 +1812,6 @@ svg.tea #steamR {
         stroke-dashoffset: 13;
         opacity: 0.6;
     }
-
     100% {
         stroke-dashoffset: 39;
         opacity: 0;
@@ -1940,7 +1823,6 @@ svg.tea #steamR {
         stroke-dashoffset: 13;
         opacity: 0.6;
     }
-
     100% {
         stroke-dashoffset: 39;
         opacity: 0;
@@ -1952,7 +1834,6 @@ svg.tea #steamR {
         stroke-dashoffset: 13;
         opacity: 0.6;
     }
-
     100% {
         stroke-dashoffset: 39;
         opacity: 0;
@@ -1964,7 +1845,6 @@ svg.tea #steamR {
         stroke-dashoffset: 13;
         opacity: 0.6;
     }
-
     100% {
         stroke-dashoffset: 39;
         opacity: 0;
@@ -1976,12 +1856,10 @@ svg.tea #steamR {
         stroke-dashoffset: 9;
         opacity: 0.6;
     }
-
     80% {
         stroke-dashoffset: 27;
         opacity: 0;
     }
-
     100% {
         stroke-dashoffset: 27;
         opacity: 0;
@@ -1993,12 +1871,10 @@ svg.tea #steamR {
         stroke-dashoffset: 9;
         opacity: 0.6;
     }
-
     80% {
         stroke-dashoffset: 27;
         opacity: 0;
     }
-
     100% {
         stroke-dashoffset: 27;
         opacity: 0;
@@ -2010,12 +1886,10 @@ svg.tea #steamR {
         stroke-dashoffset: 9;
         opacity: 0.6;
     }
-
     80% {
         stroke-dashoffset: 27;
         opacity: 0;
     }
-
     100% {
         stroke-dashoffset: 27;
         opacity: 0;
@@ -2027,17 +1901,16 @@ svg.tea #steamR {
         stroke-dashoffset: 9;
         opacity: 0.6;
     }
-
     80% {
         stroke-dashoffset: 27;
         opacity: 0;
     }
-
     100% {
         stroke-dashoffset: 27;
         opacity: 0;
     }
 }
+
 
 /*------------------------ Fim Pre Loader da Chicara--------------------------*/
 
@@ -2055,7 +1928,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /*-------------------  FONTS DO SITE ----------------------------*/
+
 @font-face {
     font-family: 'StarWars';
     src: url('/fonts/star-wars/SF\ Distant\ Galaxy\ AltOutline.ttf') format('truetype');
